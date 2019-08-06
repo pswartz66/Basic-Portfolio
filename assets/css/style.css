@@ -1,13 +1,31 @@
 
 body {
-    background-color: #cccccc;
+    background-image: url("../images/lghtmesh.png");
+    
+    margin: 0;
+
 }
 
+
+
+h1 {
+    font-size: 18pt;
+}
 
 header {
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #ffffff;
-    border-color: #cccccc;
-    padding-bottom: 200px;
+    border-bottom: 1px solid #cccccc;
+    height: 66px;
+    width: 100%;
+    overflow: hidden;
+
 
 }
+
+/* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+} */
