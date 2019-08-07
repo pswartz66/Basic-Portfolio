@@ -1,7 +1,6 @@
 
 body {
     background-image: url("../images/lghtmesh.png");
-    
     margin: 0;
 
 }
@@ -11,14 +10,14 @@ h1 {
     font-size: 18pt;
 }
 
-a {
+/* a {
     text-decoration: none;
     margin-left: 10px;
     margin-right: 10px;
     float: right;
-}
+} */
 
-header {
+.header {
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
@@ -26,10 +25,49 @@ header {
     width: 100%;
     overflow: hidden;
     text-decoration: none;
-    /* float: left; */
+    text-align: center;
+    position: fixed;
+
+}
+
+
+.header-left {
+    float: left;
+    margin-left: 200px;
+    height: 66px;
+}
+
+.header-left h1 {
+    height: 66px;
+    padding: 20px 6px 0px 6px;
+    background-color: #4aaaa5;
+    font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+.header-right {
+    float: right;
+    margin-right: 200px;
+    height: 66px;
+    background-color: #4aaaa5;
+    padding: 20px 4px 0px 4px;
+}
+
+.header-right a {
+    height: 66px;
+    text-decoration: none;
+    color: #cccccc;
+    font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+    /* padding: 20px 4px 0px 4px; */
 
 
 }
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
 
 /* .sticky {
     position: fixed;
