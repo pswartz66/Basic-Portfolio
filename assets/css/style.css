@@ -7,9 +7,15 @@ body {
 }
 
 
-
 h1 {
     font-size: 18pt;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
 }
 
 header {
@@ -19,6 +25,8 @@ header {
     height: 66px;
     width: 100%;
     overflow: hidden;
+    text-decoration: none;
+    /* float: left; */
 
 
 }
