@@ -30,7 +30,6 @@ h2 {
     border-bottom: 1px solid #cccccc;
     height: 66px;
     width: 960px;
-    /* overflow: hidden; */
     text-decoration: none;
     text-align: center;
     
@@ -47,7 +46,7 @@ h2 {
 
 .header-left h1 {
     height: 66px;
-    padding: 20px 6px 0px 6px;
+    padding: 20px 12px 0px 12px;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: white;
@@ -109,23 +108,65 @@ h2 {
 }
 
 .content {
-    margin: 20px 140px 20px 140px;
+    margin: 30px 140px 20px 140px;
     height: 760px;
     width: 960px;
-
-
     background-color: #ffffff;
+    
+}
+
+.content-wrapper {
+    height: 760px;
+    padding: 10px 10px 10px 10px;
+
+
+
 }
 
 .content-head {
-    padding: 20px 0px 20px 6px;
+    padding: 25px 2px 25px 2px;
     color: #4aaaa5;
+    
+
 
 }
 
-/* .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
+#border-line {
+    padding-bottom: 14px;
+    border-bottom: 1.5px solid #cccccc;
+    overflow: none;
 
-} */
+}
+
+img {
+
+    height: 200px;
+    width: 200px;
+    padding: 0px 12px 6px 2px;
+    float: left;
+
+}
+
+p {
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+
+
+
+.footer {
+    background-color: #1a1919;
+    height: 66px;
+    width: 960px;
+    text-decoration: none;
+    text-align: center;
+    
+
+}
+
+h4 {
+    color: #ffffff;
+    
+}
+
