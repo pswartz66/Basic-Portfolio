@@ -171,3 +171,39 @@ h4 {
 
 }
 
+img[alt*="chart_img"] {
+    height: 200px;
+    width: 200px;
+    /* padding: 50px; */
+    
+
+}
+
+img[alt*="controller_img"] {
+    height: 200px;
+    width: 200px;
+    padding-left: 20px;
+    
+
+}
+
+img[alt*="ipad_img"] {
+    height: 200px;
+    width: 200px;
+    padding-left: 20px;
+    position: absolute;
+    top: 424px;
+    left: 132px;
+    
+
+}
+
+img[alt*="search_img"] {
+    height: 200px;
+    width: 200px;
+    padding-left: 20px;
+    position: absolute;
+    top: 424px;
+    left: 364px;
+
+}
