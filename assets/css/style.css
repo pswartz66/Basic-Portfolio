@@ -308,13 +308,16 @@ h3 {
 
 }
 
-
 #border_1 {
     width: 99%;
     border: 1.1px solid #cccccc;
     font-size: 12pt;
     color: #bbbbbb;
 
+}
+
+textarea {
+    margin-top: 8px;
 }
 
 #my-button {
