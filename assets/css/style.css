@@ -116,15 +116,11 @@ h2 {
     height: 760px;
     padding: 10px 10px 10px 10px;
 
-
-
 }
 
 .content-head {
     padding: 25px 2px 25px 2px;
     color: #4aaaa5;
-    
-
 
 }
 
@@ -136,7 +132,6 @@ h2 {
 }
 
 img {
-
     height: 200px;
     width: 200px;
     padding: 0px 12px 6px 2px;
@@ -150,16 +145,13 @@ p {
 }
 
 
-
-
 .footer {
     background-color: #666666;
     height: 66px;
     width: 100%;
     text-decoration: none;
     text-align: center;
-    border-top: 8px solid #4aaaa5;
-    
+    border-top: 8px solid #4aaaa5;   
 
 }
 
@@ -168,23 +160,20 @@ h4 {
     text-align: center;
     padding-top: 40px;
 
-
 }
 
 img[alt*="chart_img"] {
     height: 200px;
     width: 200px;
-    /* padding: 50px; */
     
-
 }
 
 img[alt*="controller_img"] {
     height: 200px;
     width: 200px;
-    padding-left: 20px;
+    float: left;
+    margin-left: 20px;
     
-
 }
 
 img[alt*="ipad_img"] {
@@ -195,7 +184,6 @@ img[alt*="ipad_img"] {
     top: 424px;
     left: 132px;
     
-
 }
 
 img[alt*="search_img"] {
@@ -205,5 +193,65 @@ img[alt*="search_img"] {
     position: absolute;
     top: 424px;
     left: 364px;
+
+}
+
+.img_chart {
+    height: 40px;
+    width: 200px;
+    background-color: #4aaaa5;
+    position: absolute;
+    top: 348px;
+    left: 132px;
+
+    margin-left: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    text-align: center;
+
+}
+
+.img_controller {
+    height: 40px;
+    width: 200px;
+    background-color: #4aaaa5;
+    position: absolute;
+    top: 348px;
+    left: 366px;
+
+    margin-left: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    text-align: center;
+
+}
+
+.img_ipad {
+    height: 40px;
+    width: 200px;
+    background-color: #4aaaa5;
+    position: absolute;
+    top: 575px;
+    left: 132px;
+
+    margin-left: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    text-align: center;
+
+}
+
+.img_search {
+    height: 40px;
+    width: 200px;
+    background-color: #4aaaa5;
+    position: absolute;
+    top: 575px;
+    left: 366px;
+
+    margin-left: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    text-align: center;
 
 }
